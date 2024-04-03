@@ -1,1 +1,1 @@
-# node-red-contrib-balluff-rfid-node-red-contrib-balluff-smartlight
+# Node-RED Contribution Balluff Smartlight
