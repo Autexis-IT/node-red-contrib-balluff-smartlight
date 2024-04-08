@@ -25,4 +25,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Updated
 #### Removed
 
-[Unreleased]: https://gitlab-autexis.ch/MES4.0/node-red-contrib-autexis-df4/compare/0.0.1...development
+[Unreleased]: https://github.com/Autexis-IT/node-red-contrib-balluff-smartlight/compare/0.0.1...development
