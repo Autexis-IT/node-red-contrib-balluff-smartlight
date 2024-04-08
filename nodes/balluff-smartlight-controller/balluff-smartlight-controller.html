@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('balluff-smartlight-controller', {
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: { value: "" },
+            interval: { value: 1000, required: true, validate: RED.validators.number(), type: "number" }
+        },
+        inputs: 1,
+        outputs: 1,
+        // icon: "file.svg",
+        label: function () {
+            return this.name || "balluff-smartlight-controller";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="balluff-smartlight-controller">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-interval"><i class="fa fa-plug"></i> Resend interval (ms)</label>
+        <input type="text" id="node-input-interval">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="balluff-smartlight-controller">
+    <p></p>
+</script>

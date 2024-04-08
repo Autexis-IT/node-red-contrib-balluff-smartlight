@@ -1,0 +1,19 @@
+{
+  "name": "node-red-contrib-balluff-smartlight",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Autexis-IT/node-red-contrib-balluff-smartlight.git",
+  "author": "Autexis IT <info@autexis.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [ "node-red" ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+      "balluff-smartlight-controller": "nodes/balluff-smartlight-controller/balluff-smartlight-controller.js"
+    }
+  }
+}
